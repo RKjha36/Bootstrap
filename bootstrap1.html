@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Dom Manipulation</title>
+</head>
+
+<body>
+    <header id="header" class="headersection text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1> Rupa Jha</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum minus laborum omnis
+                        a voluptas! Ratione velit dolore in iure non tenetur fuga! Aut explicabo nisi distinctio
+                        similique omnis hic vero cumque quas!</p>
+                    <a href="" class="btn btn-info"> read more</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="articles" class="articlesection mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1>Article 1</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis mollitia quod aut
+                        explicabo quasi, aliquid itaque labore illum corporis quidem, vero pariatur! Magni molestiae
+                        repellendus qui dolor quibusdam, eligendi pariatur quo nam! Ipsam, voluptatum?</p>
+                    <a href="" class="btn btn-info"> read more</a>
+                </div>
+
+                <div class="col-4">
+                    <h1>Article 2</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis mollitia quod aut
+                        explicabo quasi, aliquid itaque labore illum corporis quidem, vero pariatur! Magni molestiae
+                        repellendus qui dolor quibusdam, eligendi pariatur quo nam! Ipsam, voluptatum?</p>
+                    <a href="" class="btn btn-info"> read more</a>
+                </div>
+
+                <div class="col-4">
+                    <h1>Article 3</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis mollitia quod aut
+                        explicabo quasi, aliquid itaque labore illum corporis quidem, vero pariatur! Magni molestiae
+                        repellendus qui dolor quibusdam, eligendi pariatur quo nam! Ipsam, voluptatum?</p>
+                    <a href="" class="btn btn-info"> read more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="flower" class="flowersection mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+
+                <div class="col-2">
+                    <img src="photo-1500350347612-85b7eff2f759.jpg" class="img-fluid" alt="not found">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="forms" class="formsection mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <form action="">
+                        <input type="text" class="form-control mb-3" placeholder="testing1">
+                        <input type="text" class="form-control mb-3" placeholder="testing1">
+                        <input type="text" class="form-control mb-3" placeholder="testing1">
+                        <input type="text" class="form-control mb-3" placeholder="testing1">
+                    </form>
+                </div>
+
+                <div class="col-4">
+                    <form action="">
+                        <input type="text" class="form-control mb-3" placeholder="testing2">
+                        <input type="text" class="form-control mb-3" placeholder="testing2">
+                        <input type="text" class="form-control mb-3" placeholder="testing2">
+                        <input type="text" class="form-control mb-3" placeholder="testing2">
+                    </form>
+                </div>
+
+                <div class="col-4">
+                    <form action="">
+                        <input type="text" class="form-control mb-3" placeholder="testing3">
+                        <input type="text" class="form-control mb-3" placeholder="testing3">
+                        <input type="text" class="form-control mb-3" placeholder="testing3">
+                        <input type="text" class="form-control mb-3" placeholder="testing3">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        let h = document.querySelector("#header .container .row div div") 
+        h.innerHTML = "<h6>English Spoken</h6>";
+        console.log(h);
+        
+        
+        
+        
+        
+
+
+    </script>
+
+</body>
+
+</html>
